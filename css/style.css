@@ -17,7 +17,7 @@ a{
 }
 /* start section home  */
 .home-sec{
-    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.5)) ,url(../image/imgs/bg.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.5)) ,url(../image/imgs/mikhail-fesenko-p6YWrjhmjhM-unsplash.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -59,179 +59,47 @@ nav.navbar-nav .nav-link.active{
     color: white;
     font-size: 55px;
 }
-@keyframes hometyping{
-    
-    0%{
-        content: "D|";
-    }
-    2%{
-        content: "De|";
-    }
-    4%{
-        content: "Dev|";
-    }
-    6%{
-        content: "Deve|";
-    }
-    8%{
-        content: "Devel|";
-    }
-    10%{
-        content: "Develo|";
-    }
-    12%{
-        content: "Develop|";
-    }
-    14%{
-        content: "Develope|";
-    }
-    16%{
-        content: "Developer|";
-    }
-    18%{
-        content: "Develope|";
-    }
-    20%{
-        content: "Develop|";
-    }
-    22%{
-        content: "Develo|";
-    }
-    24%{
-        content: "Devel|";
-    }
-    26%{
-        content: "Deve|";
-    }
-    28%{
-        content: "Dev|";
-    }
-    30%{
-        content: "De|";
-    }
-    32%{
-        content: "D|";
-    }
-    34%{
-        content: "|";
-    }
-    36%{
-        content: "D|";
-    }
-     38%{
-        content: "De|";
-    }
-    40%{
-        content: "Des|";
-    }
-    42%{
-        content: "Desi|";
-    }
-    46%{
-        content: "Desig|";
-    }
-    48%{
-        content: "Design|";
-    }
-    50%{
-        content: "Designe|";
-    }
-    52%{
-        content: "Designer|";
-    }
-    54%{
-        content: "Designe|";
-    }
-    56%{
-        content: "Design|";
-    }
-    58%{
-        content: "Desig|";
-    }
-    60%{
-        content: "Desi|";
-    }
-    62%{
-        content: "Des|";
-    }
-    64%{
-        content: "De|";
-    }
-    66%{
-        content: "D|";
-    }
-    67%{
-        content: "|";
-    }
-    68%{
-        content: "L|";
-    }
-    69%{
-        content: "La|";
-    }
-    70%{
-        content: "Lar|";
-    }
-    71%{
-        content: "Larr|";
-    }
-    72%{
-        content: "Larry|";
-    }
-    73%{
-        content: "Larry D|";
-    }
-    74%{
-        content: "Larry Da|";
-    }
-    75%{
-        content: "Larry Dan|";
-    }
-    76%{
-        content: "Larry Dani|";
-    }
-    77%{
-        content: "Larry Danie|";
-    }
-    78%{
-        content: "Larry Daniel|";
-    }
-    80%{
-        content: "Larry Danie|";
-    }
-    82%{
-        content: "Larry Dani|";
-    }
-    84%{
-        content: "Larry Dan|";
-    }
-    85%{
-        content: "Larry Dan|";
-    }
-    86%{
-        content: "Larry Da|";
-    }
-    87%{
-        content: "Larry D|";
-    }
-    88%{
-        content: "Larry|";
-    }
-    92%{
-        content: "Larr|";
-    }
-    94%{
-        content: "Lar|";
-    }
-    96%{
-        content: "La|";
-    }
-    98%{
-        content: "L|";
-    }
-    100%{
-        content: "|";
-    }
+@keyframes hometyping {
+    /* --- كتابة ومسح Developer --- */
+    0%   { content: "D|"; }
+    2%   { content: "De|"; }
+    4%   { content: "Dev|"; }
+    6%   { content: "Deve|"; }
+    8%   { content: "Devel|"; }
+    10%  { content: "Develo|"; }
+    12%  { content: "Develop|"; }
+    14%  { content: "Develope|"; }
+    16%  { content: "Developer|"; }
+    25%  { content: "Developer|"; } /* الثبات على الكلمة قليلاً */
+    27%  { content: "Develope|"; }
+    29%  { content: "Develop|"; }
+    31%  { content: "Develo|"; }
+    33%  { content: "Devel|"; }
+    35%  { content: "Deve|"; }
+    37%  { content: "Dev|"; }
+    39%  { content: "De|"; }
+    41%  { content: "D|"; }
+    43%  { content: "|"; }
+
+    /* --- كتابة ومسح Designer --- */
+    47%  { content: "D|"; }
+    49%  { content: "De|"; }
+    51%  { content: "Des|"; }
+    53%  { content: "Desi|"; }
+    55%  { content: "Desig|"; }
+    57%  { content: "Design|"; }
+    59%  { content: "Designe|"; }
+    61%  { content: "Designer|"; }
+    75%  { content: "Designer|"; } /* الثبات على الكلمة قليلاً */
+    77%  { content: "Designe|"; }
+    79%  { content: "Design|"; }
+    81%  { content: "Desig|"; }
+    83%  { content: "Desi|"; }
+    85%  { content: "Des|"; }
+    87%  { content: "De|"; }
+    89%  { content: "D|"; }
+    92%  { content: "|"; }
+    100% { content: "|"; }
 }
 .navbar.nav-transparent {
     background-color: rgba(255, 255, 255, 0);
@@ -663,3 +531,25 @@ background-color: white !important;
     color: #737F80;
     
  }
+.social-link {
+  width: 40px;
+  height: 40px;
+  background-color: transparent; /* خلفية شفافة */
+  color: #ffffff; /* لون الأيقونة أبيض */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* إطار رمادي خفيف لتحديد الدائرة */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* تأثير عند التمرير بالماوس (Hover) */
+.social-link:hover {
+  background-color: #ffffff; /* يتحول للون الأبيض عند الوقوف عليه */
+  color: #000000; /* يتحول لون الأيقونة للأسود */
+  border-color: #ffffff;
+  transform: translateY(-3px);
+}
